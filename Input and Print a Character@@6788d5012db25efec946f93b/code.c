@@ -2,10 +2,10 @@
 
 
 int main() {
-    char character;
+    char ch;
     printf("enter a character:");
-    scanf("%c", &character);
-    printf("Print the entered character.%c \n",character);
+    scanf("%c", &ch);
+    printf("You entered :%c \n",ch);
 
     return 0;
 }
