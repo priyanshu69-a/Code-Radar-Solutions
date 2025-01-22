@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-
 int main() {
-    float sum;
-    printf("enter any value %f :\n");
-    scanf("%f",&sum);
-    printf("the value of sum %f is :",sum);
+    float number;
+
+   
+    printf("Enter a floating-point number: ");
+
+    
+    scanf("%f", &number);
+
+   
+    printf("You entered: %f\n", number);
+
     return 0;
 }
