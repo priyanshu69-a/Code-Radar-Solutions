@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &num2);
     scanf("%d", &num3);
     float average=num1+num2+num3/3;
-    printf("Average: %.2f\n",num1,num2,num3);
+    printf("Average: %.2f\n",average);
     return 0;
 }
