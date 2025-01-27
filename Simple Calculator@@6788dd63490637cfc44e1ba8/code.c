@@ -14,7 +14,7 @@ int main() {
         case '/':
         printf("%d"a/b);
         default:
-        printf("invalid input");
+        printf("error");
         
     }
     return 0;
