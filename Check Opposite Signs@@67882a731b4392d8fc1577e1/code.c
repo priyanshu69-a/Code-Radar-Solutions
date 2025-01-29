@@ -2,7 +2,6 @@
 
 int main() {
     int number;
-    printf("Enter a number: ");
     scanf("%d", &number);
 
     if ((number >> (sizeof(int) * 8 - 1)) & 1) {
