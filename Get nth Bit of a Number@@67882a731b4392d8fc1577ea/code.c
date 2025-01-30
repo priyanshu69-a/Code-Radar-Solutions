@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int n,k;
+    int number,n;
     scanf("%d",&n);
     scanf("%d",&k);
-    k=k>>n;
-    if (k&1==1){
-        printf("1");
+    if (n < 0 || n >= sizeof(int) * 8) {
+        return 1;
     }
+    int mask = 1 << n;
+    if (number & mask) {
+        printf("The %dth bit of %d is: 1\n", n, number);
     else{
         printf("0");
     }
