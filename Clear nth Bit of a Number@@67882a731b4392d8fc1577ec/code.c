@@ -1,4 +1,4 @@
-#inclu#include <stdio.h>
+#include<stdio.h>
 
 int main(){
     int number,n;
@@ -13,7 +13,7 @@ int main(){
         number = number - power;
     }
 
-    printf(" %d",  number);
+    printf("%d",  number);
 
     return 0;
 }
