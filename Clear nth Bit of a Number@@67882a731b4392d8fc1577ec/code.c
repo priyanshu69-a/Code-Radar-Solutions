@@ -7,7 +7,6 @@ int main(){
     if (n < 0 || n >= sizeof(int) * 8) {
         return 1;
     }
-    int mask = 1 << n;
     if (number & 0) {
         printf("%d",n);
         }
