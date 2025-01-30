@@ -7,11 +7,13 @@ int main(){
     if (n < 0 || n >= sizeof(int) * 8) {
         return 1;
     }
-    if (number & 0) {
-        printf("%d",n);
-        }
-    else{
-        printf("0");
+ int power = (int)pow(2, n);
+
+    if ((number & power) != 0) {
+        number = number - power;
     }
+
+    printf(" %d",  number);
+
     return 0;
 }
