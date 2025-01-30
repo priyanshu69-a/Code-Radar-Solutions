@@ -3,10 +3,10 @@
 int main(){
     int number;
     scanf("%d ",&number);
-    int count=0;
+    int count=31;
     while((number&1)==0){
         number=number>>31;
-        count++;
+        count--;
     }
     printf("%d",count);
     return 0;
