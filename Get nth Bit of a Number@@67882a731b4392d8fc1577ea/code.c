@@ -9,7 +9,7 @@ int main(){
     }
     int mask = 1 << n;
     if (number & mask) {
-        printf( number);
+        printf("%d", number);
         }
     else{
         printf("0");
