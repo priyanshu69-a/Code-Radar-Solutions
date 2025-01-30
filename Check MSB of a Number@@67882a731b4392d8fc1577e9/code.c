@@ -3,7 +3,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if((a&1)==1)
+    int msb= 1<<(BITS-1);
+    if(a&msb)
         printf("Set");
     else
         printf("Not Set");
