@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     scanf("%d",&k);
     int x =k>>n;
-    if (x&1==1){
+    if (x&1){
         printf("1");
     }
     else{
