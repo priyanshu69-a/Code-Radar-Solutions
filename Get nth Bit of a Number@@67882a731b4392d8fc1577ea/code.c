@@ -2,8 +2,7 @@
 
 int main(){
     int number,n;
-    scanf("%d",&number);
-    scanf("%d",&n);
+    scanf("%d %d",&number,&n);
     if(number&(1<<n)){
         printf("1");
     }
