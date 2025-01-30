@@ -1,20 +1,9 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
 
 int main(){
     int number,n;
-    scanf("%d",&number);
-    scanf("%d",&n);
-    if (n < 0 || n >= sizeof(int) * 8) {
-        return 1;
-    }
- int power = (int)pow(2, n);
-
-    if ((number & power) != 0) {
-        number = number - power;
-    }
-
-    printf("%d",  number);
-
+    scanf("%d %d",&number,&n);
+    int new_num=number&(1<<n);
+    printf("%d",new_num);
     return 0;
 }
