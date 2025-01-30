@@ -9,7 +9,7 @@ int main(){
     }
     int mask = 1 << n;
     if (number & mask) {
-        printf("The %dth bit of %d is: 1\n", n, number);
+        printf( number);
         }
     else{
         printf("0");
