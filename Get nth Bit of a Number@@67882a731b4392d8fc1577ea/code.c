@@ -4,13 +4,9 @@ int main(){
     int number,n;
     scanf("%d",&number);
     scanf("%d",&n);
-    if (n < 0 || n >= sizeof(int) * 8) {
-        return 1;
+    if(number&(1<<n)){
+        printf("1")
     }
-    int mask = 1 << n;
-    if (number & mask) {
-        printf("1");
-        }
     else{
         printf("0");
     }
