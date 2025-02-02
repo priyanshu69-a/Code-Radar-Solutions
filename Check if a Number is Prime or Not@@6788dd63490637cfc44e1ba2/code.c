@@ -13,10 +13,10 @@ int main() {
             }
         }
         if (flag == 0) {
-            printf("Prime number.\n");
+            printf("Prime");
         } 
         else {
-            printf("Not a prime number.\n");
+            printf("Not Prime");
         }
     }
 
