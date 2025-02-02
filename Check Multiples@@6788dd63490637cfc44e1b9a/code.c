@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    int divisor,num;
-    scanf("%d %d",&divisor,&num);
+    int num,divisor;
+    scanf("%d %d",&num,&divisor);
   
     if(num % divisor == 0){
             printf("Yes");
-        }
+    }
     else{
         printf("No");
     }
