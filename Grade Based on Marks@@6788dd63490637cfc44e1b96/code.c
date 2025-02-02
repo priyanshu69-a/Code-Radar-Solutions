@@ -19,9 +19,6 @@ int main() {
     else if (marks >= 50 && marks < 60) {
         printf("F");
     
-    else {
-        printf("Invalid input");
     }
-
     return 0;
 }
