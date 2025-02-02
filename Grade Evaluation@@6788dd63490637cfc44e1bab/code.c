@@ -2,7 +2,7 @@
 int main() {
     int grades;
     scanf("%d",&grades);
-    switch(day){
+    switch(grades){
         case 'A':
             printf("Excellent");
             break;
