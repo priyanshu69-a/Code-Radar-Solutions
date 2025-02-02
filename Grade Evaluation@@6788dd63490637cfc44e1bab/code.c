@@ -3,7 +3,7 @@ int main() {
     int grades;
     scanf("%d",&grades);
     switch(grades){
-        case "A":
+        case 'A':
             printf("Excellent");
             break;
         case 'B':
