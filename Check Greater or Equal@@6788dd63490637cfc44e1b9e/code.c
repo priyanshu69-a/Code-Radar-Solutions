@@ -6,7 +6,7 @@ int main() {
     if(num > divisor){
             printf("Yes");
     }
-    else if(num < divisor){
+    else{
         printf("No");
     }
  
