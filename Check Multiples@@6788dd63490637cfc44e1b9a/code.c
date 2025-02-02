@@ -4,11 +4,11 @@ int main() {
     scanf("%d %d",&divisor,&num);
     if(divisor==0){
         if(num%divisor==0){
-            print("Yes")
+            print("Yes");
         }
     }
     else{
-        printf("No")
+        printf("No");
     }
     return 0;
 }
