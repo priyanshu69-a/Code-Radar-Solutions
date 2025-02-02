@@ -4,7 +4,7 @@ int main() {
     scanf("%d %d",&divisor,&num);
   
     if(num % divisor == 0){
-            print("Yes");
+            printf("Yes");
         }
     else{
         printf("No");
