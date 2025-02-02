@@ -8,7 +8,9 @@ int main() {
         }
         
     }
-    else
-    printf("Even");
+    else{
+        printf("Even");
+    }
+    
     return 0;
 }
