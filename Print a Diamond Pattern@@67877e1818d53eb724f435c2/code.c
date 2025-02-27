@@ -1,27 +1,26 @@
 #include <stdio.h>
 int main() {
-    int space,i,j,size;
-    scanf("%d",&size);
-    for (i = 1; i <= size; i++) {
-        for (space = 1; space <= size - i; space++) {
-            printf("  ");  // Print spaces
+    int n,i,j;
+    scanf("%d",&n);
+    for( i=1;i<=n;i++){
+        for( j=1;j<=n-i;j++){
+            printf(" ");}
+        
+        for( j=1;j<=2*i-1;j++){
+            printf("*");
         }
-        for (j = 1; j <= (2 * i - 1); j++) {
-            printf("* ");
+        printf("/n");
+        for(int i=n-1;i>=1;i--){
+            for( j=1;j<=n-i;j++){
+                printf(" ");}
+        
+            for( j=1;j<=2*i-1;j++){
+                printf("*");
         }
-        printf("\n");
+        printf("/n");
+        }
+        
     }
-
     
-    for (i = size - 1; i >= 1; i--) {
-        for (space = 1; space <= size - i; space++) {
-            printf("  ");  
-        }
-        for (j = 1; j <= (2 * i - 1); j++) {
-            printf("* ");
-        }
-        printf("\n");
-    }
-
     return 0;
 }
