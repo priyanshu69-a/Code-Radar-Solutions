@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int space,i,j,size;
-    scanf("%d",&n);
+    scanf("%d",&size);
     for (i = 1; i <= size; i++) {
         for (space = 1; space <= size - i; space++) {
             printf("  ");  // Print spaces
