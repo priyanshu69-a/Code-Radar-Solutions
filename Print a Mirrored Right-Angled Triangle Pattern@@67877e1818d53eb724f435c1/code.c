@@ -1,17 +1,16 @@
-// Your code here...
 #include <stdio.h>
-
 int main() {
-    int size;
-    scanf("%d", &size);
-    int a =size;
-
-    for (int i = 1; i <= size; i++) {  
-        for (int j = 1; j <= a; j++) { 
+    int n;
+    scanf("%d",&n);
+    int a=n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=a;j++){
             printf("* ");
         }
+        a--;
         printf("\n");
+        
     }
-
     return 0;
+}
 }
