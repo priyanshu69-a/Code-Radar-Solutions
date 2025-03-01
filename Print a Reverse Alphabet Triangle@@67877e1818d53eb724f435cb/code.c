@@ -6,6 +6,7 @@ int main() {
 
 
     for (int i = size; i >= 1; i--) {  
+        char c;
         for (int j = 1; j <= i; j++) { 
             printf("%d ",j);
         }
