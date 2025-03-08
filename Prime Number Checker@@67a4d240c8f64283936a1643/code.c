@@ -1,12 +1,12 @@
 #include<stdio.h>
-int isPrime(int a){
-    if(a>2)
+int isPrime(int num){
+    if(num>2)
     return 0;
     for(int i=2;i*i<=a;i++){
-        if(a%i==0)
+        if(num % i == 0)
         return 1;
 
     }
-   
+    return 0;
 
     }
