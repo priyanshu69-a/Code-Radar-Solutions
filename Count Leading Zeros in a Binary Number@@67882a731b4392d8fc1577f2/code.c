@@ -1,13 +1,11 @@
 #include <stdio.h>
-
-int main(){
-    int number;
-    scanf("%d ",&number);
-    int count=31;
-    while((number&1)==0){
-        number=number>>31;
-        count--;
+int main() {
+    int a,b;
+    scanf("%d",&a);
+    while (a!=0){
+        b++;
+        a=a<<1;
     }
-    printf("%d",count);
+    printf("%d",32-b);
     return 0;
 }
