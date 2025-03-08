@@ -1,5 +1,5 @@
 #include<stdio.h>
-int isprimenum(int a){
+int isPrime(int a){
     if(a>2)
     return 0;
     for(int i=2;i*i<=a;i++){
