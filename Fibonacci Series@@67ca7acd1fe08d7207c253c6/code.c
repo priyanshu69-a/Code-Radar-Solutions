@@ -1,4 +1,4 @@
-int fibnacciseries(int a){
+void fibonacciSeries(int a){
     int n;
     scanf("%d",&n);
     int fib[n];
@@ -6,7 +6,7 @@ int fibnacciseries(int a){
     int fib[1]=1;
     for(int i=2;i<n;i++){
         fib[i]=fib[i-1]+fib[i-2];
-        printf("%d \t",fib[i]);
+        printf("%d ",fib[i]);
     }
     printf("\n");
     return 0; 
