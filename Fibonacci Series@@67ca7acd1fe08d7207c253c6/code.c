@@ -1,4 +1,4 @@
-int main(){
+int fibnacciseries(int n){
     int n;
     scanf("%d",&n);
     int fib[n];
