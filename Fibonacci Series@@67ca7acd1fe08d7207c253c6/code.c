@@ -1,4 +1,4 @@
-void fibonacci(int n) {
+void fibonacciSeries(int n) {
     int first = 0, second = 1, next;
     
     printf("Fibonacci Series: ");
