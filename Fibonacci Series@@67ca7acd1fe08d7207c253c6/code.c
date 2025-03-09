@@ -1,12 +1,12 @@
-void fibonacciSeries(int n){
-    int fib[n];
-    int fib[0]=0;
-    int fib[1]=1;
-    for(int i=2;i<n;i++){
-        fib[i]=fib[i-1]+fib[i-2];
-        printf("%d ",fib[i]);
+void fibonacci(int n) {
+    int first = 0, second = 1, next;
+    
+    printf("Fibonacci Series: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", first);
+        next = first + second;
+        first = second;
+        second = next;
     }
     printf("\n");
-    return 0; 
-
 }
