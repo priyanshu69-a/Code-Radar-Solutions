@@ -1,6 +1,4 @@
-void fibonacciSeries(int a){
-    int n;
-    scanf("%d",&n);
+void fibonacciSeries(int n){
     int fib[n];
     int fib[0]=0;
     int fib[1]=1;
