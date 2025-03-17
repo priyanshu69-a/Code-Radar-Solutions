@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void findUnsortedSubarray(int arr[], int n) {
     int L = -1, R = -1;
 
