@@ -5,12 +5,12 @@ int findKthPositive(int arr[], int n, int k) {
 
     while (missingCount < k) {
         if (index < size && arr[index] == num) {
-            index++;  // If num is in the array, move to the next element
+            index++;  
         } else {
-            missingCount++;  // If num is missing, count it
+            missingCount++;
         }
         if (missingCount < k)
-            num++;  // Move to the next number
+            num++;
     }
 
     return num;
